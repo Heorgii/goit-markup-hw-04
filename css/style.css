@@ -135,7 +135,7 @@ ul{
     background: #2F303A;
     display: flex;
     align-items: center;
-    background-image:url(/images/bgcpgoto.jpg) ;
+    background-image:url(../images/bgcpgoto.jpg) ;
 }
 
 h1{
@@ -304,23 +304,6 @@ h2{
     color: #757575;
 }
 
-.svg-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 32px;
-    padding-top: 16px;
-    padding-bottom: 30px;
-    
-
-   
-  
-}
-
-/* .svg-teacher:hover,
-.svg-teacher:focus{
-    background-color: #2196F3;
-} */
 
 .border{
     border-radius: 50%;
