@@ -111,11 +111,8 @@ ul{
     color: #757575;
 }
 
-.svg{
-    margin-right: 10px;
-}
 
-.email:hover, .tel:hover , .svg:hover{
+.email:hover, .tel:hover{
     color: #2196F3;
 }
 
@@ -218,13 +215,6 @@ h1{
     color: #757575;  
 }
 
-.svg-discr{
-    background: #F5F4FA;
-    border-radius: 4px;
-    padding: 25px 100px;
-    margin-bottom: 30px;
-    height: 120px;
-}
 
 /* Image */
 
@@ -302,19 +292,77 @@ h2{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px; 
 }
 
+/* Social icons */
 
-.border{
-    border-radius: 50%;
-    border: solid darkblue;
+.socials{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.svg-teacher{
+.social-item:not(:last-child){
     margin-right: 10px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.social-icon{
+    fill: #AFB1B8;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.social-link:hover{
+    background-color: #2196F3;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+    fill: #FFFFFF;
+}
+
+/* Постійні клієнти Logo */
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-item{
+    box-sizing: border-box;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.logo-item:hover{
+    border-color: #2196F3;
+}
+
+.logo-item:hover .logo-icon,
+.logo-item:focus .logo-icon{
+    fill: #2196F3;
+}
+
+.logo-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.logo-icon{
+    fill: #AFB1B8;
 }
 
 /* Footer */
@@ -364,4 +412,41 @@ h2{
 
 .footer-tel:hover, .footer-email:hover{
     color: #2196F3;
+}
+
+/* Footer social networks */
+
+.footer-network{
+   position: absolute;
+   bottom: -2032px;
+   left: 516px;
+   /* width: 206px;
+   height: 80px; */
+}
+
+
+.footer-h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    text-align: center;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer-socials{
+    margin-left: -70px;
+}
+
+.footer-social-link{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-icon{
+    fill: #FFFFFF;
 }
