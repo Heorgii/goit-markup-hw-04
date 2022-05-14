@@ -435,10 +435,18 @@ h2{
 
 /* Footer social networks */
 
-.footer-network{
+/* .footer-network{
    position: absolute;
    bottom: -2187px;
    left: 516px;
+} */
+
+.footer-socials{
+    display: flex;
+}
+
+.footer-socials{
+    margin-left: 516px;
 }
 
 .footer-h3{
@@ -453,10 +461,6 @@ h2{
     text-align: center;
     padding-bottom: 20px;
     color: #FFFFFF;
-}
-
-.footer-socials{
-    margin-left: -70px;
 }
 
 .footer-social-link{
