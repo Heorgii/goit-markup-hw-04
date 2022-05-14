@@ -125,6 +125,16 @@ ul{
     margin-left: auto;
 }
 
+/* Header contact icon */
+
+.icon-link{
+    fill: currentColor;
+}
+
+.header-cont-icon{
+    margin-right: 10px;
+}
+
 /* Hero */
 
 .hero{
@@ -213,6 +223,15 @@ h1{
     letter-spacing: 0.03em;
     
     color: #757575;  
+}
+
+/* Discr icons */
+
+.icon-box{
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
 }
 
 
@@ -418,12 +437,9 @@ h2{
 
 .footer-network{
    position: absolute;
-   bottom: -2032px;
+   bottom: -2187px;
    left: 516px;
-   /* width: 206px;
-   height: 80px; */
 }
-
 
 .footer-h3{
     font-family: 'Roboto';
