@@ -61,7 +61,7 @@ header{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    margin-right: 101px;
+    margin-right: 90px;
 }
 
 .header-list{
@@ -92,6 +92,10 @@ header{
 }
 
 .link:hover{
+    color: #2196F3;
+}
+
+.link:focus{
     color: #2196F3;
 }
 
@@ -228,10 +232,14 @@ h1{
 /* Discr icons */
 
 .icon-box{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
-    margin-bottom: 30px;
 }
 
 
@@ -346,6 +354,10 @@ h2{
     background-color: #2196F3;
 }
 
+.social-link:focus{
+    background-color: #2196F3;
+}
+
 .social-link:hover .social-icon,
 .social-link:focus .social-icon{
     fill: #FFFFFF;
@@ -371,7 +383,14 @@ h2{
     border-color: #2196F3;
 }
 
-.logo-item:hover .logo-icon,
+.logo-item:focus{
+    border-color: #2196F3;
+}
+
+.logo-item:hover .logo-icon{
+    fill: #2196F3;
+}
+
 .logo-item:focus .logo-icon{
     fill: #2196F3;
 }
@@ -436,18 +455,20 @@ h2{
 /* Footer social networks */
 
 /* .footer-network{
-   position: absolute;
-   bottom: -2187px;
-   left: 516px;
+    position: absolute;
+    width: 206px;
+    height: 80px;
+    left: 516px;
+    top: 2711px;
+    
 } */
 
 .footer-socials{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-socials{
-    margin-left: 516px;
-}
 
 .footer-h3{
     font-family: 'Roboto';
@@ -457,7 +478,7 @@ h2{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+
     text-align: center;
     padding-bottom: 20px;
     color: #FFFFFF;
