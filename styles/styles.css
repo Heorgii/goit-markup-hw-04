@@ -119,7 +119,10 @@ ul{
     margin-right: 10px;
 }
 
-.email:hover, .tel:hover
+.email:hover, .tel:hover{
+    color: #2196F3;
+}
+
 .email:focus, .tel:focus{
     color: #2196F3;
 }
@@ -290,22 +293,18 @@ p{
     color: #2196F3;
 }
 
-/* Footer social networks */
-
-/* .socials{
+.footer > .container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-/* 
-.footer-network{
-    position: absolute;
-    width: 206px;
-    height: 80px;
-    left: 516px;
-    top: 1783px;
-    
-} */
+    justify-content: flex-start;
+}
+
+.fot{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+/* Footer social networks */
 
 .footer-socials{
     display: flex;
@@ -335,6 +334,10 @@ p{
 }
 
 .social-link:hover{
+    background-color: #2196F3;
+}
+
+.social-link:focus{
     background-color: #2196F3;
 }
 

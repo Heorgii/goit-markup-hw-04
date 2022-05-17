@@ -120,10 +120,14 @@ ul{
     color: #2196F3;
 }
 
+
+.email:focus, .tel:focus{
+    color: #2196F3;
+}
+
 .email{
     margin-right: 50px;
 }
-
 
 .header-navigation{
     margin-left: auto;
@@ -414,6 +418,17 @@ h2{
     padding-bottom: 60px;
 }
 
+.footer > .container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fot{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
 .studio-footer{
     color: #FFFFFF;
     font-family: 'Raleway';
@@ -432,6 +447,7 @@ h2{
     
     margin-top: 20px;
     margin-bottom: 9px;
+
 }
 
 .footer-email, .footer-tel{
@@ -446,22 +462,16 @@ h2{
 
 .footer-tel{
     margin: 0;
-}
+} 
 
 .footer-tel:hover, .footer-email:hover{
     color: #2196F3;
 }
 
+
 /* Footer social networks */
 
-/* .footer-network{
-    position: absolute;
-    width: 206px;
-    height: 80px;
-    left: 516px;
-    top: 2711px;
-    
-} */
+
 
 .footer-socials{
     display: flex;
