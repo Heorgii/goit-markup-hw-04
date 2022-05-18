@@ -306,12 +306,12 @@ p{
 
 /* Footer social networks */
 
+
 .footer-socials{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .social-item:not(:last-child){
     margin-right: 10px;
@@ -348,17 +348,19 @@ p{
 
 
 .footer-h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    text-align: center;
+    color: #FFFFFF;
 
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 16px;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     
-     text-align: center;
-     color: #FFFFFF;
+    position: relative;
+    right: 40px;
 }
  
 .footer-socials{
