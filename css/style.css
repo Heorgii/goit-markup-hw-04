@@ -414,10 +414,18 @@ h2{
     fill: #AFB1B8;
 }
 
+/* .logo-icon:hover{
+    fill: #2196F3;
+}
+
+.logo-icon:focus{
+    fill: #2196F3;
+} */
+
 /* .clients-icon{
     box-sizing: border-box;
     border: 1px solid #AFB1B8;
-    border-radius: 4px;
+    border-radius: 4px; 
     width: 170px;
     height: 92px;
     display: flex;
